@@ -1,0 +1,266 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,700,900');*/
+
+body {
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 26px;
+	letter-spacing: 0;
+	background-color: #efefef;
+	color: #003366;
+    position:relative;;
+}
+.logo
+{
+	background-image: url("../../images/logo.png"); display: block; padding: 20px 0; margin: 20px auto; width:250px; height:103px; position: relative;background-repeat: no-repeat; background-size:100%;
+    background-position: top center;
+}
+.image-top{position: relative;}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0;
+}
+.h10 {
+	height: 10px !important;
+	clear: both !important;
+}
+.h20 {
+	height: 20px !important;
+	clear: both !important;
+}
+.h30 {
+	height: 30px !important;
+	clear: both !important;
+}
+.h40 {
+	height: 40px !important;
+	clear: both !important;
+}
+.h50 {
+	height: 50px !important;
+	clear: both !important;
+}
+.h60 {
+	height: 60px !important;
+	clear: both !important;
+}
+.h70 {
+	height: 70px !important;
+	clear: both !important;
+}
+.h80 {
+	height: 80px !important;
+	clear: both !important;
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+}
+@media (min-width:768px) {
+.container {
+	width: 95%;
+}
+}
+@media (min-width:990px) {
+.container {
+	width: 95%;
+	padding-right: 0;
+	padding-left: 0;
+}
+}
+@media (min-width:1280px) {
+.container {
+	width: 1250px;
+}
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #5cd10a;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	list-style: none;
+}
+.imp-responsive {
+	width: 100%;
+	height: auto;
+}
+
+h3{font-size:15px;}
+/* top-head */
+p{font-size:14px; line-height:22px;}
+#middle-boxes {
+    position: relative;
+    display: block;
+}
+@media (min-width:990px) {
+	#middle-boxes {
+    display: flex;
+}
+	}
+section#steps {
+    background-color:#fff;
+	border: 2px solid #003366;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    flex:1;
+	margin:20px 0;
+}
+section#steps div.steps_header {
+	background-color:#efefef;
+	border: 2px solid #003366;
+	padding:5px;
+}
+section#steps div.steps_header div.steps_header_box h2 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+section#steps div.steps_header div.steps_header_box {
+    padding: 0 10px;
+    display: inline-block;
+}
+.columns {
+    display: block;
+    flex: 1;
+    height: auto;
+}
+@media (min-width:990px) {
+	.columns {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+	}
+section#steps div.steps_header hr {
+    border: none;
+    width: 20%;
+    height: 2px;
+    color: #000000;
+	background-color:#000000;
+    text-align: left;
+    margin: 0 0 15px 0;
+}
+section#steps .vin-image {
+    display: block;
+    width: 100%;
+    height: auto; margin:20px 0 0;
+}
+
+.recall-lookup{margin:20px 0 0; text-align:center;}
+.recall-lookup strong{font-size:18px; margin:8px 0; display:block; font-weight:bold; }
+
+
+input{width:100%; margin:5px 0; padding: 5px 10px;}
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+    background-color: #003366;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+ul#myUl {
+    margin: 20px 0;
+}
+ul#myUl label {
+    margin-bottom:0;
+}
+ul#myUl label b{
+    text-transform: capitalize;
+}
+
+
+ul#myUl1 {
+    margin: 20px 0;
+}
+ul#myUl1 label {
+    margin-bottom:0;
+}
+ul#myUl1 label b{
+    text-transform: capitalize;
+}
+
+
+input[type=checkbox]{width:auto; text-align:left}
+
+.callout{margin:20px 0;}
+.callout h3{margin:0 0 20px; display:block;}
+
+.recall-status{margin:20px 0; text-align:center; display: none; }
+
+.recall-status table{margin:20px 0; text-align:left; font-size:12px; line-height:20px;}
+.recall-status table tr{border:1px solid #333;}
+.recall-status table th,
+.recall-status table td{border:1px solid #333; padding:5px;}
+
+.recall-status button{margin:10px 0;}
+.vin-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* table */
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  .table th, .table td{width:100%;}
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 11px;
+    text-align: right;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;margin:0 10px 0 0;
+  }
+}
